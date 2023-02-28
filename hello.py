@@ -44,8 +44,6 @@ async def post():
 async def put():
     return {"message":"hello from put route"}
 
-
-
 fake_items_db = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}]
 ruchika_list = [{"shampoo":"loreal"},{"conditioner":"loreal"},{"hairwas":"mamaearth"}]
 
